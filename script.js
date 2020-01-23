@@ -1,8 +1,9 @@
 $(document).ready(function () {
+    //Hamburger menu trigger
     $('#myNavBtn').on('click', function () {
         $('.animated-icon3').toggleClass('open');
     });
-
+    //Pomodoro Logic
     var breakCount = parseInt($('#breakTime').html());
     var sessionCount = parseInt($('#sessionTime').html());
     var buzzer = $('#buzzer')[0];
@@ -31,8 +32,8 @@ $(document).ready(function () {
                 $('#playPause') == true;
             }
         }
-
     });
+    //Increase / Decrease Buttons Logic
     $('#subSession').click(function () {
         if (sessionCount > 5) {
             sessionCount -= 5;
@@ -53,5 +54,10 @@ $(document).ready(function () {
         breakCount += 5;
         $('#breakTime').html(breakCount)
     });
+
+    //Cookies Close/Agree Button
+    $('#closeBtn, #closeBtn2').click(function () {
+        $('.cookiesAgreement').hide();
+    })
 
 });

@@ -151,7 +151,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -20%);
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     color: white;
     cursor: pointer;
