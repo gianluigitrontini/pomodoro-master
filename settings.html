@@ -37,7 +37,7 @@
                 <!-- Links -->
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="navbar-nav ml-auto align-items-center">
-                        <li class="nav-item mx-3"><a class="nav-link" href="settings.html"><i
+                        <li class="nav-item mx-3"><a class="nav-link" href="about-me.html"><i
                                     class="fas fa-user-cog settings-icon"></i>SETTINGS</a></li>
                         <li class="nav-item dropdown text-center mx-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -88,70 +88,14 @@
         </nav>
     </header>
 
-    <main>
+    <main class="py-3">
         <div class="container">
-            <div class="row flex-column justify-content-center align-items-center">
-                <div class="pomodoro col-10 text-center">
-                    <img src="assets/pomodoro.png" alt="">
-                    <h2 id="start" class="startBtn">START</h2>
-                    <audio id="buzzer" src="assets/alarm.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-
-                <div class="controlButtons">
-                    <button class="btn btn-lg btn-info" id="playPause">Pause</button>
-                    <button class="btn btn-outline-info btn-lg" id="reset">Reset</button>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="sessionBlock col-12 col-md-6 my-3 my-md-0 d-flex flex-column align-items-center">
-                    <h2>Session Time</h2>
-                    <div class="text-center sessionTime d-flex justify-content-center align-items-center">
-                        <button class="btn btn-primary" id="subSession">-</button>
-                        <h2 class="mx-4 my-0" id="sessionTime">25</h2>
-                        <button class="btn btn-primary" id="addSession">+</button>
-                    </div>
-                    <p class="small">minutes</p>
-                </div>
-
-                <div class="breakBlock col-12 col-md-6 my-3 my-md-0 d-flex flex-column align-items-center">
-                    <h2>Break Time</h2>
-                    <div class="text-center breakTime d-flex justify-content-center align-items-center">
-                        <button class="btn btn-primary" id="subBreak">-</button>
-                        <h2 class="mx-4 my-0" id="breakTime">5</h2>
-                        <button class="btn btn-primary" id="addBreak">+</button>
-                    </div>
-                    <p class="small">minutes</p>
-                </div>
-
+            <div class="row justify-content-center align-items-center">
+                <img class="comingSoon" src="assets/wereComingSoon.png" alt="">
             </div>
         </div>
+
     </main>
-
-
-    <!-- <footer class="py-3 mt-auto">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="copyright col-md-6">
-                    <p class="mb-0">© 2020 Pomodoro Master Ltd. All rights reserved.
-                    </p>
-                </div>
-                <div class="cookies col-md-6 text-right">
-                    <p class="mb-0">About <a href="#">cookies</a>.</p>
-                </div>
-            </div>
-        </div>
-    </footer> -->
-
-    <div class="cookiesAgreement col-12 col-md-6 text-center">
-        <div class="text-right closeBtn" id="closeBtn">X</div>
-        This website uses cookies to ensure you get the best experience on our website. You can read our
-        cookie policy <a href="#">here</a>.
-        <button class="btn btn-info mt-2" id="closeBtn2">I Understand</button>
-    </div>
-
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
     </script>
