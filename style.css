@@ -15,7 +15,9 @@ body {
     letter-spacing: 0.166667px;
     line-height: 1.7em;
     color: #404040;
+    height: 100vh;
 }
+
 
 /* NAV */
 
@@ -23,7 +25,17 @@ body {
     outline: none;
 }
 
-/* Dropdown */
+.settings-icon {
+    margin-right: 5px;
+}
+
+nav a {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+/* Hamburger */
 
 .animated-icon3 {
     width: 30px;
@@ -112,9 +124,60 @@ body {
     left: 8px;
 }
 
+
 /* LOGO */
 
 #myLogo {
     width: 100%;
     max-width: 200px;
+}
+
+main {
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+.pomodoro {
+    padding: 50px 0;
+}
+
+.pomodoro img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.sessionTime .btn,
+.breakTime .btn {
+    font-size: 1.5rem;
+    padding: 3px 11px;
+    font-weight: bold;
+    line-height: 1.2;
+    border-radius: 100%;
+    outline: none;
+}
+
+button,
+.btn {
+    outline: none;
+}
+
+.cookiesAgreement {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 250px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.closeBtn {
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: rgb(243, 243, 243);
 }
