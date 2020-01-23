@@ -170,6 +170,7 @@ button,
     width: 250px;
     padding: 20px;
     padding-top: 5px;
+    border-radius: 5px;
 }
 
 .closeBtn {
