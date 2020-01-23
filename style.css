@@ -158,6 +158,19 @@ main {
     letter-spacing: 0.5rem;
 }
 
+.sessionBlock h2,
+.breakBlock h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(23, 23, 23);
+    letter-spacing: 2px;
+}
+
+.breakTime h2,
+.sessionTime h2 {
+    width: 50px;
+}
+
 .sessionTime .btn,
 .breakTime .btn {
     font-size: 1.5rem;
