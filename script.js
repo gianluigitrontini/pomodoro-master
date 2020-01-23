@@ -14,6 +14,7 @@ $(document).ready(function () {
 
         function timer() {
             $('#playPause') == true;
+
             $('#start').html(sessionCount);
             $('#playPause, #reset').show();
             sessionCount -= 1;
