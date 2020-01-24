@@ -41,15 +41,15 @@ I started the project with a simple layout which included:
 
 The elements position is very intuitive and there are common and easy-to-use patterns recognizable by a user.
 
-## 2. LAYOUT
+## 2. Layout
 For the home page I set the main tomato element (that I previouslycreated) in the center of the page so that it was easier to make it
 responsive, and put the time selectors distributed in 8 columns under the “pomodoro” with the Play/Pause & Reset hidden buttons that appears when the “Start” button is pressed.
 
-## 3. RESPONSIVENESS
+## 3. Responsive Design
 While screen resizes, the elements flow without drastic changes in the UI - the menu becomes an hamburger menu and the buttons stack on columns.
 The simplicity of mobile view reminds of an application where the main functions are in plain sight on the home page.
 
-## 4. TECHNOLOGIES
+## 4. Technologies
 Following the requirements of the project, I was looking for a CSS framework that was easy to use (and easy to learn if it was new to me), lightweight to keep the page loading time fast and customisable to adapt it to my needs.
 
 I ended up with Bootstrap because I already knew how it works and how to customize it and the extensive support available on their doc page and communities like StackOverflow.
