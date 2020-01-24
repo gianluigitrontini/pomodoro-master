@@ -196,6 +196,7 @@ button,
     padding: 20px;
     padding-top: 5px;
     border-radius: 5px;
+    z-index: 9999;
 }
 
 .closeBtn {
@@ -207,9 +208,86 @@ footer {
     width: 100%;
     height: 60px;
     background: rgb(243, 243, 243);
+    z-index: -1;
 }
 
 .comingSoon {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
+}
+
+.btn-primary {
+    background: #00afff;
+    border-color: #00afff;
+}
+
+@media screen and (min-width:320px) {
+    #myLogo {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .startBtn {
+        font-size: 2.5rem;
+    }
+
+    footer {
+        height: fit-content;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .cookiesAgreement {
+        max-width: 250px;
+    }
+
+    .comingSoon {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #comingSoon h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .startBtn {
+        font-size: 4rem;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .cookiesAgreement {
+        max-width: 300px;
+    }
+
+    #comingSoon h1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .pomodoro img {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .pomodoro h2 {
+        font-size: 6rem;
+    }
+
+    .comingSoon {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    #comingSoon h1 {
+        font-size: 3rem;
+    }
 }
