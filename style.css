@@ -15,7 +15,8 @@ body {
     letter-spacing: 0.166667px;
     line-height: 1.7em;
     color: #404040;
-    height: 100vh;
+    /* min-height: 100%; */
+    width: 100%;
 }
 
 
@@ -137,13 +138,13 @@ nav a {
 }
 
 main {
-    /* min-height: 100vh; */
-    padding-bottom: 100px;
+    height: 90vh;
+    /* margin-bottom: 100px; */
 }
 
 .pomodoro img {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .startBtn {
@@ -222,6 +223,11 @@ footer {
 }
 
 @media screen and (min-width:320px) {
+
+    main {
+        max-height: 80%;
+    }
+
     #myLogo {
         width: 100%;
         max-width: 150px;
@@ -231,12 +237,16 @@ footer {
         font-size: 2.5rem;
     }
 
+    .pomodoro img {
+        max-width: 250px;
+    }
+
     footer {
         height: fit-content;
     }
 
     footer p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .cookiesAgreement {
@@ -254,8 +264,13 @@ footer {
 }
 
 @media screen and (min-width:768px) {
+
     .startBtn {
         font-size: 4rem;
+    }
+
+    .pomodoro img {
+        max-width: 300px;
     }
 
     footer p {
@@ -289,5 +304,43 @@ footer {
 
     #comingSoon h1 {
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    main {
+        /* max-height: 100%; */
+        margin-bottom: 100px;
+    }
+
+    #myLogo {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    .startBtn {
+        font-size: 2.5rem;
+    }
+
+    footer {
+        height: fit-content;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .cookiesAgreement {
+        max-width: 250px;
+    }
+
+    .comingSoon {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #comingSoon h1 {
+        font-size: 2rem;
     }
 }
